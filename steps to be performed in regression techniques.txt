@@ -1,0 +1,24 @@
+1)read train and test
+2)concatenate them
+3)data preparation
+4)null value handling
+5)split train and test again
+6)split train into train1 and train2
+7)apply linear regression model on x_train1 and y_train1
+10)list train1 coefficients
+11)predict on train2
+12)find error between y_train2 and predicted IR on train2
+13)then apply linear regression model on whole train set
+14)predict on test set and export results in excel sheet
+
+ridge:
+14)take 100 random lambda values between 1 and 100
+15)model = ridge
+16)put all this in grid search cv with model as ridge, cv as 5 or 10, above lambda values and scoring method as mean abs error
+17)apply model on train data
+18)get the best estimator
+
+19)get grid search cv results
+20)report top n results
+21)predict results on test data    
+22)list train1 coefficients
